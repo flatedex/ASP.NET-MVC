@@ -1,0 +1,40 @@
+﻿@model IEnumerable<LastFile>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index Files</h1>
+
+<table class="table table-bordered" style="width:50%">
+    <thead>
+        <tr>
+            <th>
+                File name
+            </th>
+            <th>
+                File size
+            </th>
+            <th>
+                File created
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach(var obj in Model)
+            {
+                <tr>
+                    <td width="30%">
+                        @obj.Name
+                    </td>
+                    <td width="30%">
+                        @obj.Size
+                    </td>
+                    <td width="30%">
+                        @obj.CreatedDateTime
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
