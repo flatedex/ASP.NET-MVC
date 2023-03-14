@@ -3,8 +3,6 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index Files</h1>
-
 <table class="table table-bordered" style="width:50%">
     <thead>
         <tr>
@@ -12,10 +10,10 @@
                 File name
             </th>
             <th>
-                File size
+                Size
             </th>
             <th>
-                File created
+                Created at
             </th>
         </tr>
     </thead>
@@ -24,13 +22,13 @@
             foreach(var obj in Model)
             {
                 <tr>
-                    <td width="30%">
+                    <td>
                         @obj.Name
                     </td>
-                    <td width="30%">
+                    <td>
                         @obj.Size
                     </td>
-                    <td width="30%">
+                    <td>
                         @obj.CreatedDateTime
                     </td>
                 </tr>

@@ -7,6 +7,7 @@ namespace WebArchiver.Controllers
     public class LastFileController : Controller
     {
         private readonly ApplicationDBContext _db;
+        private readonly int fileCount = 5;
 
         public LastFileController(ApplicationDBContext db)
         {
@@ -15,7 +16,7 @@ namespace WebArchiver.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<LastFile> objFilesList = _db.LastFile.ToList();
+            IEnumerable<LastFile> objFilesList = _db.LastFile.ToList().TakeLast(fileCount).Reverse();
             return View(objFilesList);
         }
     }
