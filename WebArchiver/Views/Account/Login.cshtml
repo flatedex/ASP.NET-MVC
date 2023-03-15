@@ -1,0 +1,23 @@
+﻿@model WebArchiver.Models.LoginModel
+
+@{
+	ViewData["Title"] = "Login";
+}
+
+<form asp-action="Login" asp-controller="Account" asp-anti-forgery="true">
+	<div class="containerLogin">
+		<label asp-for="Name"><b>Username</b></label>
+		<input asp-for="Name" type="text" placeholder="Enter Username" name="uname" required class="nameBox">
+
+		<label asp-for="Password"><b>Password</b></label>
+		<input asp-for="Password" type="password" placeholder="Enter Password" name="psw" required class="nameBox">
+
+		<button type="submit" class="loginButton">Login</button>
+		<label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+		<div>
+			<a asp-controller="Account" asp-action="Register">Register</a>
+		</div>
+	</div> 
+</form>

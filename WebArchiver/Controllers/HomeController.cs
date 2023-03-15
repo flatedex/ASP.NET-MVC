@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using WebArchiver.Models;
 
@@ -14,18 +15,6 @@ namespace WebArchiver.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-        public IActionResult About()
-        {
-            return View();
-        }
-        public IActionResult Login()
         {
             return View();
         }

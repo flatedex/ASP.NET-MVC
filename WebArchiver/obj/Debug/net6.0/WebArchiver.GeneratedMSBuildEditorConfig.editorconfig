@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/C\# Projects/ASP.NET-MVC/WebArchiver/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\# Projects/ASP.NET-MVC/WebArchiver/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/C\# Projects/ASP.NET-MVC/WebArchiver/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/C\# Projects/ASP.NET-MVC/WebArchiver/Views/LastFile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFzdEZpbGVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/C\# Projects/ASP.NET-MVC/WebArchiver/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/C\# Projects/ASP.NET-MVC/WebArchiver/Views/Shared/Error.cshtml]
