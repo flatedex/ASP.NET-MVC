@@ -45,7 +45,7 @@ namespace WebArchiver.Controllers
 
 					await Authenticate(user);
 
-					return RedirectToAction("Login");
+					return RedirectToAction("Index", "Home");
 				}
 				else
 				{
@@ -64,7 +64,7 @@ namespace WebArchiver.Controllers
 				{
 					await Authenticate(user);
 
-					return RedirectToAction("Index","Home");
+					return RedirectToAction("Index","LastFile");
 				}
 				ModelState.AddModelError("","Invalid login or password!");
 			}
