@@ -146,11 +146,10 @@ h3
 }
 .fileDropArea
 {
-    
     position: relative;
     display: flex;
     align-items: center;
-    height: 80%;
+    height: 100%;
     max-width: 100%;
     padding: 100px;
     border: 2px dashed rgba(255, 255, 255, 0.9);
@@ -182,7 +181,6 @@ h3
     width: 100%;
     cursor: pointer;
     opacity: 0;
-
 }
 .fileInput:focus
 {
@@ -271,4 +269,14 @@ th
     text-align: center;
     vertical-align: middle;
     font-size: 20px;
+}
+#names li 
+{
+    margin: 1em;
+}   
+.dropzone
+{
+    height:100%;
+    width:100%;
+
 }

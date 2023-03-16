@@ -32,13 +32,13 @@ namespace WebArchiver.Controllers
 			if (ModelState.IsValid)
 			{
 				User user = await _db.User.FirstOrDefaultAsync(u => u.Email == model.Email);
-				if(user == null)
+				if (user == null)
 				{
-					user = new User 
-					{	
+					user = new User
+					{
 						Email = model.Email,
-						Password=model.Password,
-						Name= model.Name
+						Password = model.Password,
+						Name = model.Name
 					};
 					_db.User.Add(user);
 					await _db.SaveChangesAsync();
@@ -60,13 +60,13 @@ namespace WebArchiver.Controllers
 			if (ModelState.IsValid)
 			{
 				User user = await _db.User.FirstOrDefaultAsync(u => u.Name == model.Name && u.Password == model.Password);
-				if(user != null)
+				if (user != null)
 				{
 					await Authenticate(user);
 
-					return RedirectToAction("Index","LastFile");
+					return RedirectToAction("Index", "LastFile");
 				}
-				ModelState.AddModelError("","Invalid login or password!");
+				ModelState.AddModelError("", "Invalid login or password!");
 			}
 			return View(model);
 		}
@@ -76,7 +76,7 @@ namespace WebArchiver.Controllers
 			{
 				new Claim(ClaimsIdentity.DefaultNameClaimType, user.Name)
 			};
-			ClaimsIdentity id = new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType); 
+			ClaimsIdentity id = new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
 
 			await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(id));
 		}

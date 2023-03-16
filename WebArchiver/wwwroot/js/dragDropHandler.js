@@ -1,5 +1,19 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿function dropHandler(ev) {
+    console.log("File(s) dropped!");
+
+    ev.preventDefault();
+
+    if (ev.dataTransfer.items) {
+        [...ev.dataTransfer.items].forEach((item, i) => {
+            if (item.kind === "file") {
+                const file = item.getAsFile();
+                console.log(`...file[${i}].name = ${file.name}`);
+            }
+        });
+    }
+    else {
+        [...ev.dataTransfer.files].forEach((file, i) => {
+            console.log(`… file[${i}].name = ${file.name}`);
+        });
+    }
 }

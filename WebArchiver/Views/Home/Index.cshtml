@@ -1,23 +1,25 @@
-﻿@model IEnumerable<LastFile>
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+	<!--<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />-->
+	<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 <div class="content">
 	<div class="converter">
 		<h1>
-			IZConverter is a small and easy online tool that can extract compressed files, such as 7z, zipx,
+			IZConverter is a small and easy online tool that can compress files, into archives such as 7z, zipx,
 			rar, exe and more.
 		</h1>
 		<h2>
 
 		</h2>
-		<div class="dragdrop">
-			<div class="fileDropArea" id="file-selector">
-				<span class="fileMsg">Drag and drop files here</span>
-				<input class="fileInput">
+		<form method="post" enctype="multipart/form-data" id="form" data-pasley-validate class="from-horizontal form-label-left">
+			<div class="fileDropArea" id="dropzone">
+				<div action="/Home/Upload" class="dropzone" id="uploader" style="height:100%; width:100%; background:#d2b087; border:bisque">
+					<br />
+				</div>
 			</div>
-		</div>
+		</form>	
 		<div class="buttons">
 			<button> <!-- link -->
 				<p>
@@ -32,3 +34,7 @@
 		</div>
 	</div>
 </div>
+
+
+<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+<script src="~/js/site.js"></script>

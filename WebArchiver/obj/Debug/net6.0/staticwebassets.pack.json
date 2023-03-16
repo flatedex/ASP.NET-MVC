@@ -29,12 +29,36 @@
       "PackagePath": "staticwebassets\\Pictures\\picOfMe.png"
     },
     {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\IZConverter.html",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\IZConverter.html"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCat.avif",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\helloCat.avif"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCatbackgroundless.png",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\helloCatbackgroundless.png"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\index.png",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\index.png"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\style.css",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\style.css"
+    },
+    {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\dragDropHandler.js",
+      "PackagePath": "staticwebassets\\js\\dragDropHandler.js"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\site.js",
