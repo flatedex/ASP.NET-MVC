@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0e0bmW7sFShlWnhJXQNBM+LtPyx2+/zCht5EHodxdFg=",
+  "Hash": "HVHbDNL9pL6bbMi3prb+NJ1l9ivKxJtqhHe3+8ldiLI=",
   "Source": "WebArchiver",
   "BasePath": "_content/WebArchiver",
   "Mode": "Default",
@@ -1190,12 +1190,12 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\picOfMe.png"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCat.avif",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\2лаба право.docx",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/helloCat.avif",
+      "RelativePath": "UploadFilesDirectory/2лаба право.docx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,7 +1204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\helloCat.avif"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\2лаба право.docx"
     },
     {
       "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCatbackgroundless.png",
@@ -1224,12 +1224,12 @@
       "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\helloCatbackgroundless.png"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\index.png",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\index.html",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/index.png",
+      "RelativePath": "UploadFilesDirectory/index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\index.png"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\index.html"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\IZConverter.html",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\kissMyX.png",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/IZConverter.html",
+      "RelativePath": "UploadFilesDirectory/kissMyX.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,7 +1255,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\IZConverter.html"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\kissMyX.png"
+    },
+    {
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\qwe.txt",
+      "SourceId": "WebArchiver",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
+      "BasePath": "_content/WebArchiver",
+      "RelativePath": "UploadFilesDirectory/qwe.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\qwe.txt"
     },
     {
       "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\style.css",

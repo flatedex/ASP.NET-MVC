@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Debugger.Contracts;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using WebArchiver.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebArchiver.Controllers
 {
@@ -36,6 +38,10 @@ namespace WebArchiver.Controllers
 			filePath = Path.Combine(filePath, fileName);
 
 			using (FileStream fs = System.IO.File.Create(filePath)) { file.CopyTo(fs); }
+
+			string batFileDir = String.Format(@"C:\C# Projects\ASP.NET-MVC\WebArchiver\ExternalPrograms\");
+			
+
 			return RedirectToAction("Index");
 		}
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

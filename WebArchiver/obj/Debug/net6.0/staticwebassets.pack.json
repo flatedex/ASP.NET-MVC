@@ -29,20 +29,24 @@
       "PackagePath": "staticwebassets\\Pictures\\picOfMe.png"
     },
     {
-      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\IZConverter.html",
-      "PackagePath": "staticwebassets\\UploadFilesDirectory\\IZConverter.html"
-    },
-    {
-      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCat.avif",
-      "PackagePath": "staticwebassets\\UploadFilesDirectory\\helloCat.avif"
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\2лаба право.docx",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\2лаба право.docx"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCatbackgroundless.png",
       "PackagePath": "staticwebassets\\UploadFilesDirectory\\helloCatbackgroundless.png"
     },
     {
-      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\index.png",
-      "PackagePath": "staticwebassets\\UploadFilesDirectory\\index.png"
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\index.html",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\index.html"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\kissMyX.png",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\kissMyX.png"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\qwe.txt",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\qwe.txt"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\style.css",
