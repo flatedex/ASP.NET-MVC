@@ -39,8 +39,8 @@ namespace WebArchiver.Controllers
 
 			using (FileStream fs = System.IO.File.Create(filePath)) { file.CopyTo(fs); }
 
-			string batFileDir = String.Format(@"C:\C# Projects\ASP.NET-MVC\WebArchiver\ExternalPrograms\");
-			
+			string batFileDir = String.Format(@"C:\C# Projects\ASP.NET-MVC\WebArchiver\ExternalPrograms\ArchiverMVC.bat");
+			Process.Start(batFileDir);
 
 			return RedirectToAction("Index");
 		}
