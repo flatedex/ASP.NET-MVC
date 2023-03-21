@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HVHbDNL9pL6bbMi3prb+NJ1l9ivKxJtqhHe3+8ldiLI=",
+  "Hash": "iF2Q3uXWIF7/toNSk9qIg4DNHgLnPLhxirenAelzWr8=",
   "Source": "WebArchiver",
   "BasePath": "_content/WebArchiver",
   "Mode": "Default",
@@ -1190,12 +1190,12 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\picOfMe.png"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\2лаба право.docx",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Tz(1).doc",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/2лаба право.docx",
+      "RelativePath": "UploadFilesDirectory/Tz(1).doc",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\2лаба право.docx"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Tz(1).doc"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\helloCatbackgroundless.png",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Zapiska(1).docx",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/helloCatbackgroundless.png",
+      "RelativePath": "UploadFilesDirectory/Zapiska(1).docx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\helloCatbackgroundless.png"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Zapiska(1).docx"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\index.html",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Интернет технологии.docx",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/index.html",
+      "RelativePath": "UploadFilesDirectory/Интернет технологии.docx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\index.html"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Интернет технологии.docx"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\kissMyX.png",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Методы оптимизации.docx",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/kissMyX.png",
+      "RelativePath": "UploadFilesDirectory/Методы оптимизации.docx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1255,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\kissMyX.png"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Методы оптимизации.docx"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\qwe.txt",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Правовые основы информатики.docx",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/qwe.txt",
+      "RelativePath": "UploadFilesDirectory/Правовые основы информатики.docx",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,24 +1272,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\qwe.txt"
-    },
-    {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\style.css",
-      "SourceId": "WebArchiver",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
-      "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\style.css"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Правовые основы информатики.docx"
     }
   ]
 }

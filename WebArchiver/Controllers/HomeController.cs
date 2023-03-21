@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Debugger.Contracts;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using WebArchiver.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebArchiver.Controllers
 {
@@ -28,21 +26,32 @@ namespace WebArchiver.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Upload(IFormFile file)
 		{
-			var fileDirectory = "UploadFilesDirectory";
+			String fileDirectory = "UploadFilesDirectory";
 			String filePath = Path.Combine(_webHostEnvironment.WebRootPath, fileDirectory);
 			if (!Directory.Exists(filePath))
 			{
 				Directory.CreateDirectory(filePath);
 			}
-			var fileName = file.FileName;
+			String fileName = file.FileName;
 			filePath = Path.Combine(filePath, fileName);
 
-			using (FileStream fs = System.IO.File.Create(filePath)) { file.CopyTo(fs); }
+			using (FileStream fs = System.IO.File.Create(filePath)) { await file.CopyToAsync(fs); }
 
-			string batFileDir = String.Format(@"C:\C# Projects\ASP.NET-MVC\WebArchiver\ExternalPrograms\ArchiverMVC.bat");
-			Process.Start(batFileDir);
+			Archive();
 
 			return RedirectToAction("Index");
+		}
+		public void Archive()
+		{
+			Process process= new Process();
+			string batFileDir = String.Format(@"C:\C# Projects\ASP.NET-MVC\WebArchiver\ExternalPrograms\ArchiverMVC.bat");
+			process.StartInfo.FileName = batFileDir;
+			process.StartInfo.Verb = "runas";
+			process.Start();
+		}
+		public async Task SendArchive()
+		{
+
 		}
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
