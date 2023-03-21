@@ -44,8 +44,15 @@ namespace WebArchiver.Controllers
 		public void Archive()
 		{
 			Process process= new Process();
-			string batFileDir = String.Format(@"C:\C# Projects\ASP.NET-MVC\WebArchiver\ExternalPrograms\ArchiverMVC.bat");
-			process.StartInfo.FileName = batFileDir;
+            String fileDirectory = "ExternalPrograms";
+            String batFileDir = Path.Combine(_webHostEnvironment.ContentRootPath, fileDirectory);
+            if (!Directory.Exists(batFileDir))
+            {
+                return;
+            }
+            String fileName = "ArchiverMVC.bat";
+            batFileDir = Path.Combine(batFileDir, fileName);
+            process.StartInfo.FileName = batFileDir;
 			process.StartInfo.Verb = "runas";
 			process.Start();
 		}

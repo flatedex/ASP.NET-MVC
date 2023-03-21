@@ -10509,19 +10509,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flatedex\\.nuget\\packages\\": {}
+    "C:\\Users\\ilyas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\WebArchiver.csproj",
+      "projectUniqueName": "G:\\C# Projects\\WebArchiver\\WebArchiver\\WebArchiver.csproj",
       "projectName": "WebArchiver",
-      "projectPath": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\WebArchiver.csproj",
-      "packagesPath": "C:\\Users\\flatedex\\.nuget\\packages\\",
-      "outputPath": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\obj\\",
+      "projectPath": "G:\\C# Projects\\WebArchiver\\WebArchiver\\WebArchiver.csproj",
+      "packagesPath": "C:\\Users\\ilyas\\.nuget\\packages\\",
+      "outputPath": "G:\\C# Projects\\WebArchiver\\WebArchiver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flatedex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ilyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10581,7 +10581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
