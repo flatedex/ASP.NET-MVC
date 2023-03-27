@@ -26,6 +26,9 @@
 					Upload from link
 				</p>
 			</button>
+			<form asp-action="Index" asp-controller="Download">
+				<input type="button" runat="server" value="Download archive" onclick="SendArchive"/> <!-- download -->
+			</form>
 			<button>
 				<p>
 					Upload from file

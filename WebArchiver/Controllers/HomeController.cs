@@ -1,10 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.Language.Extensions;
+using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
+using System.Text;
 using WebArchiver.Data;
 using WebArchiver.Models;
+using System.Web;
+using System.Net.Mime;
 
 namespace WebArchiver.Controllers
 {
@@ -45,8 +49,6 @@ namespace WebArchiver.Controllers
 
 			await AddFilesToDB(file);
 
-			Archive();
-
 			return RedirectToAction("Index");
 		}
 		public async Task AddFilesToDB(IFormFile file)
@@ -66,25 +68,7 @@ namespace WebArchiver.Controllers
 			_db.LastFile.Add(lf);
 			await _db.SaveChangesAsync();
 		}
-		public void Archive()
-		{
-			Process process= new Process();
-            String fileDirectory = "ExternalPrograms";
-            String batFileDir = Path.Combine(_webHostEnvironment.ContentRootPath, fileDirectory);
-            if (!Directory.Exists(batFileDir))
-            {
-                return;
-            }
-            String fileName = "ArchiverMVC.bat";
-            batFileDir = Path.Combine(batFileDir, fileName);
-            process.StartInfo.FileName = batFileDir;
-			process.StartInfo.Verb = "runas";
-			process.Start();
-		}
-		public async Task SendArchive()
-		{
-
-		}
+		
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
 		{

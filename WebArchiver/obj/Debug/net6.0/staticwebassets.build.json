@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5XBjxSCK8U1yawgq2U4FTqeOY6Y0Sfue36UhW9Gbdpw=",
+  "Hash": "tYXcUf1UM13D4kUk88YzgrfGRY7lyw0zKfpWstn3c4I=",
   "Source": "WebArchiver",
   "BasePath": "_content/WebArchiver",
   "Mode": "Default",
@@ -1188,6 +1188,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Pictures\\picOfMe.png"
+    },
+    {
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Autodesk.Fbx.dll",
+      "SourceId": "WebArchiver",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
+      "BasePath": "_content/WebArchiver",
+      "RelativePath": "UploadFilesDirectory/Autodesk.Fbx.dll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Autodesk.Fbx.dll"
+    },
+    {
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Coffee.SoftMaskForUGUI.dll",
+      "SourceId": "WebArchiver",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
+      "BasePath": "_content/WebArchiver",
+      "RelativePath": "UploadFilesDirectory/Coffee.SoftMaskForUGUI.dll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Coffee.SoftMaskForUGUI.dll"
     }
   ]
 }
