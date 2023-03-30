@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Text;
 
 namespace WebArchiver.Controllers
 {
@@ -12,20 +10,20 @@ namespace WebArchiver.Controllers
 		public DownloadController(IWebHostEnvironment webHostEnvironment) {
 			_webHostEnvironment = webHostEnvironment;
 		}
-		public async Task<IActionResult> Index()
+		public IActionResult Index()
 		{
-			await SendArchive();
-			return View();
+			return View("~/Views/Home/Index.cshtml");
 		}
+		[HttpGet]
 		public async Task<IActionResult> SendArchive()
 		{
-			Archive();
+			await Archive();
 
 			String fileDirectory = Path.Combine(_webHostEnvironment.WebRootPath, "UploadFilesDirectory\\UploadFilesDirectory.rar");
-			byte[] bytes = Encoding.UTF8.GetBytes(fileDirectory);
-			return File(bytes, "application/vnd.rar", "UploadFilesDirectory.rar");
+
+			return PhysicalFile(fileDirectory, "application/vnd.rar", "Archive.rar");
 		}
-		public void Archive()
+		public async Task Archive()
 		{
 			Process process = new Process();
 			String fileDirectory = "ExternalPrograms";
@@ -39,6 +37,8 @@ namespace WebArchiver.Controllers
 			process.StartInfo.FileName = batFileDir;
 			process.StartInfo.Verb = "runas";
 			process.Start();
+			
+			await process.WaitForExitAsync();
 		}
 	}
 }

@@ -29,12 +29,8 @@
       "PackagePath": "staticwebassets\\Pictures\\picOfMe.png"
     },
     {
-      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Autodesk.Fbx.dll",
-      "PackagePath": "staticwebassets\\UploadFilesDirectory\\Autodesk.Fbx.dll"
-    },
-    {
-      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Coffee.SoftMaskForUGUI.dll",
-      "PackagePath": "staticwebassets\\UploadFilesDirectory\\Coffee.SoftMaskForUGUI.dll"
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\UploadFilesDirectory.rar",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\UploadFilesDirectory.rar"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\css\\style.css",

@@ -21,7 +21,7 @@ namespace WebArchiver.Controllers
 
 				IQueryable<LastFile> objFilesList = _db.LastFile.Where(u => u.User_id == loggedUser.Id);//.ToList().TakeLast(fileCount).Reverse();
 				IEnumerable<LastFile> lf = objFilesList.ToList().TakeLast(fileCount).Reverse();
-				return View(objFilesList);
+				return View(lf);
 			}
 			return RedirectToAction("Login", "Account");
 		}
