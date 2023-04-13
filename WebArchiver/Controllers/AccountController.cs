@@ -63,12 +63,20 @@ namespace WebArchiver.Controllers
 				if (user != null)
 				{
 					await Authenticate(user);
-
+					
 					return RedirectToAction("Index", "LastFile");
 				}
 				ModelState.AddModelError("", "Invalid login or password!");
 			}
 			return View(model);
+		}
+		public async Task<IActionResult> LogOut()
+		{
+			if (ModelState.IsValid)
+			{
+				await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+			}
+			return View("~/Views/Home/Index.cshtml");
 		}
 		public async Task Authenticate(User user)
 		{

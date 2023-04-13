@@ -38,6 +38,9 @@ namespace WebArchiver.Controllers
 		{
 			String fileDirectory = "UploadFilesDirectory";
 			String filePath = Path.Combine(_webHostEnvironment.WebRootPath, fileDirectory);
+			String archivePath = Path.Combine(filePath, "UploadFilesDirectory.rar");
+			if (Directory.Exists(archivePath))	Directory.Delete(archivePath);
+
 			if (!Directory.Exists(filePath))
 			{
 				Directory.CreateDirectory(filePath);

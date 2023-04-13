@@ -21,23 +21,16 @@
 			</div>
 		</form>	
 		<div class="buttons">
-			<button> <!-- link -->
-				<p>
-					Upload from link
-				</p>
-			</button>
 			<form asp-action="SendArchive" asp-controller="Download" method="get">
-				<input type="submit" value="Download archive" onclick=""/> <!-- download -->
+				<input type="submit" value="Download archive"/> <!-- download -->
 			</form>
-			<button>
-				<p>
-					Upload from file
-				</p> <!-- file -->
-			</button>
+			<form asp-action="Upload" asp-controller="Home" enctype="multipart/form-data" method="post">
+				<input type="file" id="file-button" style="display:none;"/>
+				<label for="file-button">Upload from file</label>
+			</form>
 		</div>
 	</div>
 </div>
-
 
 <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
 <script src="~/js/site.js"></script>

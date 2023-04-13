@@ -196,10 +196,28 @@ h3
     justify-content: space-around;
     margin-top: 40px;
 }
+.buttons input 
+{
+    background-color: bisque;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    font-family: 'Cascadia code', sans-serif;
+}
+    .buttons label {
+        background-color: bisque;
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-family: 'Cascadia code', sans-serif;
+    }
 button
 {
     background-color:bisque;
-    width: 150px;
+    width: 200px;
     height: 60px;
     border-radius: 50px;
     font-family: 'Cascadia code', sans-serif;

@@ -35,9 +35,15 @@
                     </div>
                 </div>
                 <div class="rightHeader"> 
-                    <div class="container">
+                    <div class="container" id="login">
                         Log in
-                        <a asp-area="" asp-Controller="Account" asp-action="Login">
+                        <a asp-area="" asp-controller="Account" asp-action="Login">
+                            <span class="link"></span>
+                        </a>
+                    </div>
+                    <div class="container" id="logout" style="display:none">
+                        Log out
+                        <a asp-area="" asp-controller="Account" asp-action="LogOut">
                             <span class="link"></span>
                         </a>
                     </div>
@@ -62,6 +68,16 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            @{
+                if(User.Identity.IsAuthenticated){
+                    @:document.getElementById("login").style.display = "none";
+                    @:document.getElementById("logout").style.display = "flex";
+                }
+            }
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

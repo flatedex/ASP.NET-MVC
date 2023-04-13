@@ -8,15 +8,15 @@ $(document).ready(function () {
 });
 
 function InitDragAndDrop() {
-    $("#file-selector").on("dragenter", function (evt) {
+    $("#dropzone").on("dragenter", function (evt) {
         evt.preventDefault();
         evt.stopPropogation();
     });
-    $("#file-selector").on("dragover", function (evt) {
+    $("#dropzone").on("dragover", function (evt) {
         evt.preventDefault();
         evt.stopPropogation();
     });
-    $("#file-selector").on("drop", function (evt) {
+    $("#dropzone").on("drop", function (evt) {
         evt.preventDefault();
         evt.stopPropogation();
     });
