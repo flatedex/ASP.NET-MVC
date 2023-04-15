@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jD8AXcFmVGgc5I9N5O7NYTfWUgY5o5WvI+yRtkVa3BQ=",
+  "Hash": "AhivTig7XUgqeSkB/W1WC56ecz5PYFv4hJNlwQYQij8=",
   "Source": "WebArchiver",
   "BasePath": "_content/WebArchiver",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\dragDropHandler.js"
+    },
+    {
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\dropzone.min.js",
+      "SourceId": "WebArchiver",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
+      "BasePath": "_content/WebArchiver",
+      "RelativePath": "js/dropzone.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dropzone.min.js"
     },
     {
       "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\site.js",
@@ -1190,12 +1207,12 @@
       "OriginalItemSpec": "wwwroot\\Pictures\\picOfMe.png"
     },
     {
-      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\UploadFilesDirectory.rar",
+      "Identity": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Новый текстовый документ.txt",
       "SourceId": "WebArchiver",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\",
       "BasePath": "_content/WebArchiver",
-      "RelativePath": "UploadFilesDirectory/UploadFilesDirectory.rar",
+      "RelativePath": "UploadFilesDirectory/Новый текстовый документ.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,7 +1221,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\UploadFilesDirectory.rar"
+      "OriginalItemSpec": "wwwroot\\UploadFilesDirectory\\Новый текстовый документ.txt"
     }
   ]
 }

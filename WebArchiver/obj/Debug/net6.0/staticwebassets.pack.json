@@ -29,8 +29,8 @@
       "PackagePath": "staticwebassets\\Pictures\\picOfMe.png"
     },
     {
-      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\UploadFilesDirectory.rar",
-      "PackagePath": "staticwebassets\\UploadFilesDirectory\\UploadFilesDirectory.rar"
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\UploadFilesDirectory\\Новый текстовый документ.txt",
+      "PackagePath": "staticwebassets\\UploadFilesDirectory\\Новый текстовый документ.txt"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\css\\style.css",
@@ -43,6 +43,10 @@
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\dragDropHandler.js",
       "PackagePath": "staticwebassets\\js\\dragDropHandler.js"
+    },
+    {
+      "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\js\\dropzone.min.js"
     },
     {
       "Id": "C:\\C# Projects\\ASP.NET-MVC\\WebArchiver\\wwwroot\\js\\site.js",

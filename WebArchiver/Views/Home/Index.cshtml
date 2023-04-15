@@ -1,9 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-	<!--<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />-->
-	<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
+
+<link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 <div class="content">
 	<div class="converter">
 		<h1>
@@ -24,13 +23,15 @@
 			<form asp-action="SendArchive" asp-controller="Download" method="get">
 				<input type="submit" value="Download archive"/> <!-- download -->
 			</form>
-			<form asp-action="Upload" asp-controller="Home" enctype="multipart/form-data" method="post">
+			<form asp-action="Upload" asp-controller="Home" enctype="multipart/form-data" method="post"> <!-- upload -->
 				<input type="file" id="file-button" style="display:none;"/>
 				<label for="file-button">Upload from file</label>
+				<input type="submit" class="submit_btn"/>
 			</form>
 		</div>
 	</div>
 </div>
 
-<script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+<script src="~/js/dropzone.min.js"></script>
 <script src="~/js/site.js"></script>
+<script src="~/js/dragDropHandler.js"></script>

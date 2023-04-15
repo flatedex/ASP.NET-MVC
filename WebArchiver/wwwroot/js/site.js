@@ -8,16 +8,7 @@ $(document).ready(function () {
 });
 
 function InitDragAndDrop() {
-    $("#dropzone").on("dragenter", function (evt) {
+    $(".dz-hidden-input").on("click", function (evt) {
         evt.preventDefault();
-        evt.stopPropogation();
-    });
-    $("#dropzone").on("dragover", function (evt) {
-        evt.preventDefault();
-        evt.stopPropogation();
-    });
-    $("#dropzone").on("drop", function (evt) {
-        evt.preventDefault();
-        evt.stopPropogation();
     });
 }

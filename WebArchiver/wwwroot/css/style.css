@@ -204,6 +204,9 @@ h3
     border-radius: 50px;
     font-family: 'Cascadia code', sans-serif;
 }
+.submit_btn{
+    margin-top:10px;
+}
     .buttons label {
         background-color: bisque;
         width: 200px;
@@ -301,5 +304,4 @@ th
 {
     height:100%;
     width:100%;
-
 }
